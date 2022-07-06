@@ -1,5 +1,5 @@
-import { SanityClient } from "@sanity/client";
-import { ImageUrlBuilder } from "next-sanity-image";
+import SanityClient from "@sanity/client";
+import ImageUrlBuilder from "@sanity/image-url";
 
 export const client = SanityClient({
   projectId: "fl9nt2nh",
